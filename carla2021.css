@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.remark-slide-content {
+  background-image: url('./fig/body_slide.png');
+  background-position: 100% 100%  ;
+  background-size: 100% 100% ;
+  font-size: 24pt;
+  color: #000000;
+  font-family: 'Montserrat';
+}
+
+.remark-slide-content h1 {
+  color: #641464;
+  font-weight: bold;
+  font-size: 34pt;
+  font-family: 'Montserrat';
+}
+
+.remark-slide-content h2{
+  color: #641464;
+  font-weight: bold;
+  font-size: 32pt;
+  font-family: 'Montserrat';
+}
+
+.remark-slide-content h3 {
+  color: #641464;
+  font-weight: bold;
+  font-size: 30pt;
+  font-family: 'Montserrat';
+}
+
+
+.title-slide {
+  background-image: url('./fig/title_slide.png');
+  background-position: 100% 100% ;
+  background-size: 100% 100% ;
+}
+
+.title-slide h1 {
+  font-size: 0pt;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 40%;
+  float: left;
+  margin-top: -30px;
+}
+
+.right-column {
+  width: 58%;
+  float: right;
+  margin-top: -30px;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+  margin-top: -30px;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+  margin-top: -30px;
+}
+
+.remark-code, .remark-inline-code {
+  font-size: 20pt;
+  font-family: 'Montserrat';
+}
+
+.remark-slide-number {
+    display: none;
+}
